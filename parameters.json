@@ -1,0 +1,75 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "centralus"
+        },
+        "networkInterfaceName": {
+            "value": "miraclevm657"
+        },
+        "networkSecurityGroupName": {
+            "value": "miraclevm-nsg"
+        },
+        "networkSecurityGroupRules": {
+            "value": []
+        },
+        "subnetName": {
+            "value": "subnet1"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/90a2f185-6456-4b47-a481-9c15ebc254a2/resourceGroups/project/providers/Microsoft.Network/virtualNetworks/VNet_1"
+        },
+        "publicIpAddressName": {
+            "value": "miraclevm-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        },
+        "virtualMachineName": {
+            "value": "miraclevm"
+        },
+        "virtualMachineRG": {
+            "value": "project"
+        },
+        "osDiskType": {
+            "value": "Standard_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_B1ls"
+        },
+        "adminUsername": {
+            "value": "miracle"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "miracle"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/90a2f185-6456-4b47-a481-9c15ebc254a2/resourceGroups/project/providers/Microsoft.Storage/storageAccounts/miracle"
+        },
+        "autoShutdownStatus": {
+            "value": "Enabled"
+        },
+        "autoShutdownTime": {
+            "value": "19:00"
+        },
+        "autoShutdownTimeZone": {
+            "value": "UTC"
+        },
+        "autoShutdownNotificationStatus": {
+            "value": "Enabled"
+        },
+        "autoShutdownNotificationLocale": {
+            "value": "en"
+        },
+        "autoShutdownNotificationEmail": {
+            "value": "vboddu1@miraclesoft07.onmicrosoft.com"
+        }
+    }
+}
